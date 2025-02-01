@@ -7,4 +7,4 @@ The circuit connection diagram is based on the fritzing diagram and Figure 2. Fo
 
 Use batery 2 18650, AA batery inability to meet the current requirements needed for driving.
 
-for arduino R4, if use bluetooth module via the uart protocol, pls using Serial port 1 not 0, if Srial0, R4 cannot get the chart from device (check from datasheet)
+for arduino R4, if use bluetooth module via the uart protocol, pls using Serial port 1 not 0, if Srial0, R4 cannot get the chart from device (check from datasheet), so if use R3, pls change Serial1 to Serial0.
